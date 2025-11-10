@@ -1,0 +1,14 @@
+
+palindrome:
+S = input("enter the string")
+if S == S[::-1] :
+    print("it is palindrome")
+else :
+    print("it is not a palindrome")
+
+digital occrance:
+s = input("enter the digit:")
+for d in ("0123456789"):
+    c = s.count(d)
+    if c :
+        print(d,":",c)
