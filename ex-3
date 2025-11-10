@@ -8,10 +8,3 @@ def fibonacci(n):
 
 n=int(input("enter the number of terms:"))
 fibonacci(n)
-
-
-s = input("enter the digit:")
-for d in ("0123456789"):
-    c = s.count(d)
-    if c :
-        print(d,":",c)
